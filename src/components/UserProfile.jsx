@@ -25,12 +25,12 @@ const UserProfile = () => {
         <img
           className="rounded-full h-24 w-24"
           src={avatar}
-          alt="user-profile"
+          alt="up"
         />
         <div>
-          <p className="font-semibold text-xl dark:text-gray-200"> Michael Ntwali </p>
+          <p className="font-semibold text-xl dark:text-gray-200"> Femi Ntwali </p>
           <p className="text-gray-500 text-sm dark:text-gray-400">  Admin   </p>
-          <p className="text-gray-500 text-sm font-semibold dark:text-gray-400"> michael@kapsuletech.com </p>
+          <p className="text-gray-500 text-sm font-semibold dark:text-gray-400"> femi@kapsuletech.com </p>
         </div>
       </div>
       <div>
