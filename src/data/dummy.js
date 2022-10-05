@@ -214,7 +214,7 @@ export const areaCustomSeries = [
     dataSource: areaChartData[0],
     xName: 'x',
     yName: 'y',
-    name: 'USA',
+    name: 'Rwanda',
     opacity: '0.8',
     type: 'SplineArea',
     width: '2',
@@ -233,7 +233,7 @@ export const areaCustomSeries = [
     dataSource: areaChartData[2],
     xName: 'x',
     yName: 'y',
-    name: 'Germany',
+    name: 'Kenya',
     opacity: '0.8',
     type: 'SplineArea',
     width: '2',
@@ -242,19 +242,19 @@ export const areaCustomSeries = [
 
 export const barChartData = [
   [
-    { x: 'USA', y: 46 },
-    { x: 'GBR', y: 27 },
-    { x: 'CHN', y: 26 },
+    { x: 'RWA', y: 46 },
+    { x: 'FRA', y: 27 },
+    { x: 'KEN', y: 26 },
   ],
   [
-    { x: 'USA', y: 37 },
-    { x: 'GBR', y: 23 },
-    { x: 'CHN', y: 18 },
+    { x: 'RWA', y: 37 },
+    { x: 'FRA', y: 23 },
+    { x: 'KEN', y: 18 },
   ],
   [
-    { x: 'USA', y: 38 },
-    { x: 'GBR', y: 17 },
-    { x: 'CHN', y: 26 },
+    { x: 'RWA', y: 38 },
+    { x: 'FRA', y: 17 },
+    { x: 'KEN', y: 26 },
   ],
 ];
 
@@ -562,22 +562,22 @@ export const cartData = [
   {
     image:
       product5,
-    name: 'butterscotch ice-cream',
-    category: 'Milk product',
+    name: 'Efferalgan',
+    category: 'Tablets',
     price: '$250',
   },
   {
     image:
       product6,
-    name: 'Supreme fresh tomato',
-    category: 'Vegetable Item',
+    name: 'Mustela',
+    category: 'Baby Lotion',
     price: '$450',
   },
   {
     image:
       product7,
-    name: 'Red color candy',
-    category: 'Food Item',
+    name: 'Johnson Baby Oil',
+    category: 'Baby Oil',
     price: '$190',
   },
 ];
@@ -586,15 +586,15 @@ export const chatData = [
   {
     image:
       avatar2,
-    message: 'Roman Joined the Team!',
-    desc: 'Congratulate him',
+    message: 'Liliane Joined the Team!',
+    desc: 'Congratulate her',
     time: '9:08 AM',
   },
   {
     image:
       avatar3,
     message: 'New message received',
-    desc: 'Salma sent you new message',
+    desc: 'Nadine sent you new message',
     time: '11:56 AM',
   },
   {
@@ -607,7 +607,7 @@ export const chatData = [
   {
     image:
       avatar,
-    message: 'Jolly completed tasks',
+    message: 'Chris completed tasks',
     desc: 'Assign her new tasks',
     time: '1:12 AM',
   },
@@ -821,20 +821,20 @@ export const medicalproBranding = {
 
 export const themeColors = [
   {
+    name: 'lightblue-theme',
+    color: '#4AB4A1',
+  },
+  {
+    name: 'red-theme',
+    color: '#F14C56',
+  },
+  {
     name: 'blue-theme',
     color: '#1A97F5',
   },
   {
     name: 'green-theme',
     color: '#03C9D7',
-  },
-  {
-    name: 'purple-theme',
-    color: '#7352FF',
-  },
-  {
-    name: 'red-theme',
-    color: '#FF5C8E',
   },
   {
     name: 'indigo-theme',
@@ -922,8 +922,8 @@ export const ordersGrid = [
 export const customersData = [
   {
     CustomerID: 1001,
-    CustomerName: 'Nirav Joshi',
-    CustomerEmail: 'nirav@gmail.com',
+    CustomerName: 'Christiane Ikuzo',
+    CustomerEmail: 'christiane@gmail.com',
     CustomerImage:
       avatar2,
     ProjectName: 'Hosting Press HTML',
@@ -931,13 +931,13 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '40',
     Budget: '$2.4k',
-    Location: 'India',
+    Location: 'Rwanda',
   },
   {
     CustomerID: 1002,
 
-    CustomerName: 'Sunil Joshi',
-    CustomerEmail: 'sunil@gmail.com',
+    CustomerName: 'Ritha Agasaro',
+    CustomerEmail: 'ritha@gmail.com',
     ProjectName: 'Elite Admin',
     Status: 'Active',
     CustomerImage:
@@ -946,13 +946,13 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '11',
     Budget: '$3.9k',
-    Location: 'India',
+    Location: 'Kenya',
   },
   {
     CustomerID: 1003,
 
-    CustomerName: 'Andrew McDownland',
-    CustomerEmail: 'andrew@gmail.com',
+    CustomerName: 'Luxin Segikwiye',
+    CustomerEmail: 'luxin@gmail.com',
     ProjectName: 'Real Homes WP Theme',
     Status: 'Pending',
     CustomerImage:
@@ -960,12 +960,12 @@ export const customersData = [
     StatusBg: '#FEC90F',
     Weeks: '19',
     Budget: '$24.5k',
-    Location: 'USA',
+    Location: 'Nigeria',
   },
   {
     CustomerID: 1004,
 
-    CustomerName: 'Christopher Jamil',
+    CustomerName: 'Christopher Ndekwe',
     CustomerEmail: 'jamil@gmail.com',
     ProjectName: 'MedicalPro WP Theme',
     Status: 'Completed',
@@ -974,12 +974,12 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '34',
     Budget: '$16.5k',
-    Location: 'USA',
+    Location: 'UK',
   },
   {
     CustomerID: 1005,
 
-    CustomerName: 'Michael',
+    CustomerName: 'Michael Ntsinzi',
     CustomerEmail: 'michael@gmail.com',
     ProjectName: 'Weekly WP Theme',
     Status: 'Cancel',
@@ -988,12 +988,12 @@ export const customersData = [
     StatusBg: 'red',
     Weeks: '34',
     Budget: '$16.5k',
-    Location: 'USA',
+    Location: 'UK',
   },
   {
     CustomerID: 1006,
-    CustomerName: 'Nirav Joshi',
-    CustomerEmail: 'nirav@gmail.com',
+    CustomerName: 'Christiane Ikuzo',
+    CustomerEmail: 'christiane@gmail.com',
     CustomerImage:
       avatar2,
     ProjectName: 'Hosting Press HTML',
@@ -1001,7 +1001,7 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '40',
     Budget: '$2.4k',
-    Location: 'India',
+    Location: 'DRC',
   },
   {
     CustomerID: 1007,
@@ -1016,7 +1016,7 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '11',
     Budget: '$3.9k',
-    Location: 'India',
+    Location: 'Rwanda',
   },
   {
     CustomerID: 1008,
@@ -1030,7 +1030,7 @@ export const customersData = [
     StatusBg: '#FEC90F',
     Weeks: '19',
     Budget: '$24.5k',
-    Location: 'USA',
+    Location: 'Rwanda',
   },
   {
     CustomerID: 1009,
@@ -1058,7 +1058,7 @@ export const customersData = [
     StatusBg: 'red',
     Weeks: '34',
     Budget: '$16.5k',
-    Location: 'USA',
+    Location: 'Poland',
   },
   {
     CustomerID: 1011,
@@ -1071,7 +1071,7 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '40',
     Budget: '$2.4k',
-    Location: 'India',
+    Location: 'Tanzania',
   },
   {
     CustomerID: 1012,
@@ -1141,7 +1141,7 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '40',
     Budget: '$2.4k',
-    Location: 'India',
+    Location: 'Rwanda',
   },
   {
     CustomerID: 1017,
@@ -1211,7 +1211,7 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '40',
     Budget: '$2.4k',
-    Location: 'India',
+    Location: 'Rwanda',
   },
   {
     CustomerID: 1022,
@@ -1240,7 +1240,7 @@ export const customersData = [
     StatusBg: '#FEC90F',
     Weeks: '19',
     Budget: '$24.5k',
-    Location: 'USA',
+    Location: 'Rwanda',
   },
   {
     CustomerID: 1024,
@@ -1281,7 +1281,7 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '40',
     Budget: '$2.4k',
-    Location: 'India',
+    Location: 'Rwanda',
   },
   {
     CustomerID: 1027,
@@ -1310,7 +1310,7 @@ export const customersData = [
     StatusBg: '#FEC90F',
     Weeks: '19',
     Budget: '$24.5k',
-    Location: 'USA',
+    Location: 'Rwanda',
   },
   {
     CustomerID: 1029,
@@ -1351,7 +1351,7 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '40',
     Budget: '$2.4k',
-    Location: 'India',
+    Location: 'Rwanda',
   },
   {
     CustomerID: 1032,
@@ -1380,7 +1380,7 @@ export const customersData = [
     StatusBg: '#FEC90F',
     Weeks: '19',
     Budget: '$24.5k',
-    Location: 'USA',
+    Location: 'Rwanda',
   },
   {
     CustomerID: 1034,
@@ -1408,7 +1408,7 @@ export const customersData = [
     StatusBg: 'red',
     Weeks: '34',
     Budget: '$16.5k',
-    Location: 'USA',
+    Location: 'France',
   },
   {
     CustomerID: 1036,
@@ -1436,7 +1436,7 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '11',
     Budget: '$3.9k',
-    Location: 'India',
+    Location: 'France',
   },
   {
     CustomerID: 1038,
@@ -1463,7 +1463,7 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '34',
     Budget: '$16.5k',
-    Location: 'USA',
+    Location: 'France',
   },
   {
     CustomerID: 1040,
@@ -1484,7 +1484,7 @@ export const customersData = [
 export const employeesData = [
   {
     EmployeeID: 1,
-    Name: 'Nancy Davolio',
+    Name: 'Nadine Sangwa',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
     Country: 'USA',
@@ -1494,7 +1494,7 @@ export const employeesData = [
   },
   {
     EmployeeID: 2,
-    Name: 'Nasimiyu Danai',
+    Name: 'Shamim Gard Obuya',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
     Country: 'USA',
@@ -1504,7 +1504,7 @@ export const employeesData = [
   },
   {
     EmployeeID: 3,
-    Name: 'Iulia Albu',
+    Name: 'Liliane Gikundiro',
     Title: 'HR',
     HireDate: '01/02/2021',
     Country: 'USA',
@@ -1514,7 +1514,7 @@ export const employeesData = [
   },
   {
     EmployeeID: 4,
-    Name: 'Siegbert Gottfried',
+    Name: 'Natete Verite',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
     Country: 'USA',
@@ -1524,7 +1524,7 @@ export const employeesData = [
   },
   {
     EmployeeID: 5,
-    Name: 'Omar Darobe',
+    Name: 'Pascaline Kayitete',
     Title: 'HR',
     HireDate: '01/02/2021',
     Country: 'USA',
@@ -1534,7 +1534,7 @@ export const employeesData = [
   },
   {
     EmployeeID: 4,
-    Name: 'Penjani Inyene',
+    Name: 'Belyze Intwaza',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
     Country: 'USA',
@@ -1544,7 +1544,7 @@ export const employeesData = [
   },
   {
     EmployeeID: 5,
-    Name: 'Miron Vitold',
+    Name: 'Ingrid Isimbi',
     Title: 'HR',
     HireDate: '01/02/2021',
     Country: 'USA',
@@ -1554,7 +1554,7 @@ export const employeesData = [
   },
   {
     EmployeeID: 1,
-    Name: 'Nancy Davolio',
+    Name: 'Santha Isimbi',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
     Country: 'USA',
@@ -1565,7 +1565,7 @@ export const employeesData = [
   },
   {
     EmployeeID: 2,
-    Name: 'Nasimiyu Danai',
+    Name: 'Claissie Akanigi',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
     Country: 'USA',
@@ -1575,7 +1575,7 @@ export const employeesData = [
   },
   {
     EmployeeID: 3,
-    Name: 'Iulia Albu',
+    Name: 'Joyeuse Dusenge',
     Title: 'HR',
     HireDate: '01/02/2021',
     Country: 'USA',
@@ -1585,7 +1585,7 @@ export const employeesData = [
   },
   {
     EmployeeID: 4,
-    Name: 'Siegbert Gottfried',
+    Name: 'Bertin Ashimwe',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
     Country: 'USA',
@@ -1615,7 +1615,7 @@ export const employeesData = [
   },
   {
     EmployeeID: 5,
-    Name: 'Miron Vitold',
+    Name: 'Susan Nakimuli',
     Title: 'HR',
     HireDate: '01/02/2021',
     Country: 'USA',
@@ -1625,7 +1625,7 @@ export const employeesData = [
   },
   {
     EmployeeID: 1,
-    Name: 'Nancy Davolio',
+    Name: 'Elizabeth Ampurira',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
     Country: 'USA',
@@ -1635,7 +1635,7 @@ export const employeesData = [
   },
   {
     EmployeeID: 2,
-    Name: 'Nasimiyu Danai',
+    Name: 'Eric Munana',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
     Country: 'USA',
@@ -2124,11 +2124,11 @@ export const employeesData = [
 export const ordersData = [
   {
     OrderID: 10248,
-    CustomerName: 'Vinet',
+    CustomerName: 'Laurette',
 
     TotalAmount: 32.38,
-    OrderItems: 'Fresh Tomato',
-    Location: 'USA',
+    OrderItems: 'Mustela',
+    Location: 'Kigali',
     Status: 'pending',
     StatusBg: '#FB9678',
     ProductImage:
@@ -2136,10 +2136,10 @@ export const ordersData = [
   },
   {
     OrderID: 345653,
-    CustomerName: 'Carson Darrin',
+    CustomerName: 'Robert Jean',
     TotalAmount: 56.34,
-    OrderItems: 'Butter Scotch',
-    Location: 'Delhi',
+    OrderItems: 'Efferalgan',
+    Location: 'Kinshasa',
     Status: 'complete',
     StatusBg: '#8BE78B',
     ProductImage:
@@ -2149,8 +2149,8 @@ export const ordersData = [
     OrderID: 390457,
     CustomerName: 'Fran Perez',
     TotalAmount: 93.31,
-    OrderItems: 'Candy Gucci',
-    Location: 'New York',
+    OrderItems: 'Johnson Baby ',
+    Location: 'Paris',
     Status: 'active',
     StatusBg: '#03C9D7',
     ProductImage:
