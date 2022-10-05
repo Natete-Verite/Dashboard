@@ -308,11 +308,11 @@ const Ecommerce = () => {
               alt=""
             />
             <div className="mt-8">
-              <p className="font-semibold text-lg">React 18 coming soon!</p>
-              <p className="text-gray-400 ">By Johnathan Doe</p>
+              <p className="font-semibold text-lg">Johnson Baby Shampoo</p>
+              <p className="text-gray-400 ">By Johnson Baby</p>
               <p className="mt-8 text-sm text-gray-400">
-                This will be the small description for the news you have shown
-                here. There could be some great info.
+                Check out the new Johnson Baby shampoo. You can get it
+                from any of our shops.
               </p>
               <div className="mt-3">
                 <Button
