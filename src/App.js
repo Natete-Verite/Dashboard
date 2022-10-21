@@ -5,6 +5,8 @@ import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 
 import { Navbar, Footer, Sidebar, ThemeSettings } from "./components";
 import Login from "./Login";
+import Register from "./Register";
+import Reset from "./Reset";
 import {
   Ecommerce,
   Orders,
@@ -51,10 +53,18 @@ const App = () => {
     <div className={currentMode === "Dark" ? "dark" : ""}>
       <BrowserRouter>
 
-          <Routes>
-            <Route exact path="/" component={Login} />
-          </Routes>
-        
+        <Routes>
+          {/* {login} */}
+          <Route path="/" element={<Login />} />
+          <Route path="/login" element={<Login />} />
+
+          {/* {register} */}
+          <Route exact path="/register" element={<Register />} />
+
+          {/* {reset} */}
+          <Route exact path="/reset" element={<Reset />} />
+        </Routes>
+
         <div className="flex relative dark:bg-main-dark-bg">
           <div className="fixed right-4 bottom-4" style={{ zIndex: "1000" }}>
             <TooltipComponent content="Settings" position="Top">
