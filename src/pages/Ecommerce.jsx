@@ -83,6 +83,12 @@ const Ecommerce = () => {
                 </span>
                 <span>Budget</span>
               </p>
+              <p className="flex items-center gap-2 text-green-400 hover:drop-shadow-xl">
+                <span>
+                  <GoPrimitiveDot />
+                </span>
+                <span>Sales</span>
+              </p>
             </div>
           </div>
           <div className="mt-10 flex gap-10 flex-wrap justify-center">
