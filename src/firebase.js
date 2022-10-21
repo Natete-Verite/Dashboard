@@ -1,6 +1,6 @@
 import { initializeApp } from "firebase/app";
-​​import { GoogleAuthProvider,getAuth,signInWithPopup,signInWithEmailAndPassword,createUserWithEmailAndPassword,sendPasswordResetEmail,signOut ​} from "firebase/auth";
-​​import { getFirestore,query,getDocs,collection,where,addDoc ​​} from "firebase/firestore";
+import { GoogleAuthProvider,getAuth,signInWithPopup,signInWithEmailAndPassword,createUserWithEmailAndPassword,sendPasswordResetEmail,signOut} from "firebase/auth";
+import { getFirestore,query,getDocs,collection,where,addDoc} from "firebase/firestore";
 
 const firebaseConfig = {
     apiKey: "AIzaSyAhy0mPIoXEzqPALwn5CRacH74uHosfrKY",
@@ -12,9 +12,9 @@ const firebaseConfig = {
     measurementId: "G-RZENEDYG4J"
   };
 
-  const app = ​​initializeApp(firebaseConfig);
-  ​​const auth = getAuth(app);
-  ​​const db = getFirestore(app);
+  const app = initializeApp(firebaseConfig);
+  const auth = getAuth(app);
+  const db = getFirestore(app);
   const googleProvider = new GoogleAuthProvider();
   const signInWithGoogle = async () => {
     try {
@@ -79,3 +79,4 @@ const firebaseConfig = {
     sendPasswordReset,
     logout,
   };
+
