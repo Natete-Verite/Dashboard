@@ -1,10 +1,11 @@
 import React from 'react';
 import { MdOutlineCancel } from 'react-icons/md';
-
 import { Button } from '.';
 import { userProfileData } from '../data/dummy';
 import { useStateContext } from '../contexts/ContextProvider';
 import avatar from '../data/avatar.jpg';
+import { firebaseConfig } from '../firebase'
+
 
 const UserProfile = () => {
   const { currentColor } = useStateContext();
@@ -58,6 +59,7 @@ const UserProfile = () => {
           text="Logout"
           borderRadius="10px"
           width="full"
+          onClick={()=> firebaseConfig.auth().signOut()} logout
         />
       </div>
     </div>
