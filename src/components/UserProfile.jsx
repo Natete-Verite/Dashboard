@@ -4,7 +4,7 @@ import { Button } from '.';
 import { userProfileData } from '../data/dummy';
 import { useStateContext } from '../contexts/ContextProvider';
 import avatar from '../data/avatar.jpg';
-import { firebaseConfig } from '../firebase'
+import { auth } from '../firebase'
 
 
 const UserProfile = () => {
@@ -59,7 +59,7 @@ const UserProfile = () => {
           text="Logout"
           borderRadius="10px"
           width="full"
-          onClick={()=> firebaseConfig.auth().signOut()} logout
+          onClick={()=> auth.signOut()} logout
         />
       </div>
     </div>
